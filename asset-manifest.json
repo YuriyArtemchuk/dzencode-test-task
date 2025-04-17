@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/dzencode-test-task/static/css/main.f2c3a49c.css",
-    "main.js": "/dzencode-test-task/static/js/main.c6a5bf28.js",
+    "main.css": "/dzencode-test-task/static/css/main.9bc59da4.css",
+    "main.js": "/dzencode-test-task/static/js/main.b13eb1c9.js",
+    "static/media/logo-image.png": "/dzencode-test-task/static/media/logo-image.0fbe82e2870caff91b5f.png",
     "index.html": "/dzencode-test-task/index.html",
-    "main.f2c3a49c.css.map": "/dzencode-test-task/static/css/main.f2c3a49c.css.map",
-    "main.c6a5bf28.js.map": "/dzencode-test-task/static/js/main.c6a5bf28.js.map"
+    "main.9bc59da4.css.map": "/dzencode-test-task/static/css/main.9bc59da4.css.map",
+    "main.b13eb1c9.js.map": "/dzencode-test-task/static/js/main.b13eb1c9.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2c3a49c.css",
-    "static/js/main.c6a5bf28.js"
+    "static/css/main.9bc59da4.css",
+    "static/js/main.b13eb1c9.js"
   ]
 }
