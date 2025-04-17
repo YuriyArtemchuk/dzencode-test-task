@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/dzencode-test-task/static/css/main.f2c3a49c.css",
-    "main.js": "/dzencode-test-task/static/js/main.73673891.js",
+    "main.js": "/dzencode-test-task/static/js/main.c6a5bf28.js",
     "index.html": "/dzencode-test-task/index.html",
     "main.f2c3a49c.css.map": "/dzencode-test-task/static/css/main.f2c3a49c.css.map",
-    "main.73673891.js.map": "/dzencode-test-task/static/js/main.73673891.js.map"
+    "main.c6a5bf28.js.map": "/dzencode-test-task/static/js/main.c6a5bf28.js.map"
   },
   "entrypoints": [
     "static/css/main.f2c3a49c.css",
-    "static/js/main.73673891.js"
+    "static/js/main.c6a5bf28.js"
   ]
 }
