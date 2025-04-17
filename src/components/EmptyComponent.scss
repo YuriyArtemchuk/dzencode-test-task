@@ -1,0 +1,25 @@
+.empty-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .content {
+    width: 40%;
+    border: 1px solid grey;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .link {
+    text-decoration: none;
+    font-size: 0.8rem;
+    background-color: rgb(30, 170, 30);
+    color: white;
+    border-radius: 8px;
+    padding: 10px 15px;
+  }
+}

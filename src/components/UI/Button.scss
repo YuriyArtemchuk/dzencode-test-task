@@ -1,0 +1,31 @@
+.button-block {
+  padding: 10px 20px;
+
+  .product-button {
+    background: none;
+    border: none;
+    color: grey;
+    font-size: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px;
+    text-decoration: none;
+  }
+
+  .icon-circle {
+    background-color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icon {
+    color: grey;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,39 @@
+.main .page-container {
+  background-color: rgb(237, 241, 241);
+  color: grey;
+  padding: 60px;
+
+  .products-filter {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+
+    .page-title {
+      color: black;
+    }
+  }
+
+  .table {
+    border-collapse: separate;
+    border-spacing: 0 10px;
+
+    td {
+      border: none;
+      color: grey;
+      text-align: center;
+    }
+
+    .delete-button {
+      display: flex;
+      justify-content: end;
+    }
+  }
+
+  .product-date {
+    display: flex;
+  }
+
+  .dates {
+    padding-left: 12px;
+  }
+}

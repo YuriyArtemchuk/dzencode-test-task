@@ -1,0 +1,104 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 100;
+}
+
+.popup {
+  position: fixed;
+  top: 30%;
+  left: 30%;
+  width: 90%;
+  background: white;
+  border-radius: 5px;
+  text-align: center;
+  width: 40%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  animation: slide-down 300ms ease-out forwards;
+  z-index: 200;
+
+  .button-block {
+    padding: 10px 20px;
+    display: flex;
+
+    .close-button {
+      position: relative;
+    }
+
+    .cancel-button {
+      background: #3dce5f;
+      border: none;
+      color: white;
+      font-weight: 500;
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      margin: 8px 0px;
+    }
+
+    .delete-button {
+      background: white;
+      border: none;
+      color: tomato;
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      margin: 8px 0px;
+      padding: 8px 20px;
+      border-radius: 30px;
+    }
+
+    .button-name {
+      margin: 0px 10px;
+    }
+
+    .icon-circle {
+      background-color: white;
+      //   color: tomato;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .icon {
+      color: tomato;
+      font-size: 0.7rem;
+      font-weight: 700;
+    }
+  }
+}
+
+.info-box {
+  .text-title {
+    padding: 20px 30px;
+    font-size: 1.15rem;
+    font-weight: 700;
+  }
+
+  .tr-detail {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid lightgrey;
+    border-top: 1px solid rgb(235, 232, 232);
+  }
+
+  .td-detail {
+    padding: 10px;
+  }
+}
+
+.popup-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: end;
+  background-color: #3dce5f;
+}

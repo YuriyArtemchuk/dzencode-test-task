@@ -1,0 +1,102 @@
+.wrapper {
+  display: flex;
+  max-width: 85%;
+  background-color: rgba(248, 251, 251, 0.93);
+  box-shadow: 10px 3px 20px 3px rgba(188, 185, 185, 0.5);
+  justify-content: space-around;
+  height: 8vh;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+
+  .left_wrapper {
+    position: relative;
+
+    background-color: azure;
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+
+    .logo-block {
+      display: flex;
+      align-items: center;
+
+      .logo {
+        width: 100%;
+        height: auto;
+        max-height: 40px;
+        object-fit: contain;
+      }
+    }
+    .name {
+      color: rgb(30, 170, 30);
+      padding-left: 10px;
+      font-weight: 700;
+      font-size: 0.8rem;
+      text-shadow: 0px 0px 1px rgb(30, 170, 30);
+    }
+
+    .search-wrapper {
+      display: flex;
+      align-items: center;
+      width: 45%;
+    }
+    input {
+      width: 100%;
+      background-color: rgb(237, 241, 241);
+      border: none;
+      border-radius: 4px;
+      padding: 3px 10px;
+      box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.2);
+      outline: none;
+      color: black;
+      font-weight: 700;
+      font-size: 0.85rem;
+    }
+  }
+
+  .right-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 0.85rem;
+    color: #333;
+    font-weight: 600;
+
+    .date-block {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      .day,
+      .date-time {
+        text-transform: capitalize;
+        color: #5e5c5c;
+        font-family: "Open Sans", "Helvetica Neue", sans-serif;
+        text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .date-time {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        .time-block {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+
+          .clock-icon {
+            color: green;
+          }
+        }
+      }
+    }
+  }
+  .session-count {
+    font-size: 0.7rem;
+    margin-top: 4px;
+    color: #5e5c5c;
+  }
+}
